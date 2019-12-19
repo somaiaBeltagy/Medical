@@ -1,0 +1,199 @@
+﻿@font-face {
+    font-family: 'Hacen Tunisia Bd_0';
+    src: url('Fonts/Hacen Tunisia Bd_0.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Hacen Tunisia Lt_0';
+    src: url('Fonts/Hacen Tunisia Lt_0.ttf') format('truetype');
+}
+
+
+/*Start Slider*/
+
+
+.slider-header {
+    color: black;
+    font-family: Hacen Tunisia Bd_0;
+}
+
+
+.slider-first-header {
+    transform: translateX(7%)
+}
+.btn-header {
+    background-color: #e93232;
+    transform: translateX(108%);
+    font-family: Hacen Tunisia Lt_0;
+}
+.p-header{
+    font-size:300%;
+}
+
+.caption-header {
+    transform: translate(33%,-76%);
+}
+
+.fa-circle {
+    color: #e93232;
+    width: 2%;
+    font-size:200%;
+
+}
+.fa-chevron-right, .fa-chevron-left {
+    width: 10%;
+}
+
+
+    /*End-Slider*/
+    
+    /*Start Latest News*/
+
+.more-font {
+    font-family: Hacen Tunisia Lt_0;
+
+}
+
+.news-font {
+    font-family: Hacen Tunisia Bd_0;
+}
+.News-section {
+    background-color: #f3f3f3
+}
+.card {
+    width: 16rem !important
+}
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    }
+
+
+
+    .card::before,
+    .card::after {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transform: scale3d(0, 0, 1);
+        transition: transform .3s ease-out 0s;
+        background: rgba(255, 255, 255, 0.1);
+        content: '';
+        pointer-events: none;
+    }
+
+    .card::before {
+        transform-origin: left top;
+    }
+
+    .card::after {
+        transform-origin: right bottom;
+    }
+
+    .card:hover::before,
+    .card:hover::after,
+    .card:focus::before,
+    .card:focus::after {
+        transform: scale3d(1, 1, 1);
+    }
+
+.fa-plus-square {
+    transform:translate(233%,-258%);
+    color: #e93232;
+}
+.card-title {
+    font-size: 2vh;
+    font-family: Hacen Tunisia Bd_0;
+    font-weight:lighter;
+}
+
+.card-body {
+    font-family: Hacen Tunisia Lt_0;
+}
+/*End Latest News*/
+/*Start Footer*/
+
+
+footer {
+    background-color: #58d3d4;
+    height: 66% !important;
+}
+
+.Footer-Div-one {
+    background-color: #4ebebe;
+    height: 40%;
+    padding-bottom: 11%;
+    padding-right: 3%;
+    line-height: 217%;
+    margin-left: 7%;
+}
+
+.Footer-Div-three{
+    height:66% !important;
+}
+.Footer-Div-two {
+    height: 50%;
+}
+
+.radio{
+    transform:translateX(5%)
+}
+
+.Footer-Img {
+    width: 103%;
+    height: 66%;
+    top: 0;
+    right: 0 !important;
+    margin-right: 0;
+    padding-right: 0;
+}
+.Footer-Btn {
+    background-color: #00838f;
+    margin-right:18%;
+}
+.form-control{
+    width:72%;
+}
+hr {
+    background-color: white;
+    opacity: 0.6;
+    width: 90%;
+    margin-left: 6rem !important;
+}
+input[placeholder] {
+    text-align: right;
+    font-family: Hacen Tunisia Lt_0;
+}
+
+.aside-div {
+    background-color: white;
+    opacity: 0.8;
+    transform: translateY(-423%);
+    width: 70%;
+}
+
+    .aside-div:hover {
+        background-color: #58d3d4;
+    }
+
+.ideal{
+    font-size:3.5vh;
+}
+
+.BMI{
+    font-size:4vh;
+}
+
+.label-font{
+    font-size:2vh;
+}
+
+.chooices{
+    font-size:3vh;
+}
+
+.copyright {
+    transform: translateY(-632%)
+}
